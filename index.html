@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Olahraga Mingguan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>💪 Rencana Kebugaran Mingguan</h1>
+        <p id="current-day-info"></p>
+
+        <table id="workout-schedule">
+            <thead>
+                <tr>
+                    <th>Hari</th>
+                    <th>Fokus Latihan</th>
+                    <th>Aktivitas Utama</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr data-day="minggu">
+                    <td>Minggu</td>
+                    <td>Istirahat Penuh</td>
+                    <td>Pemulihan Aktif (Jalan Santai)</td>
+                    <td></td>
+                </tr>
+                <tr data-day="senin">
+                    <td>Senin</td>
+                    <td>Kekuatan (Tubuh Atas)</td>
+                    <td>Latihan Dada, Punggung, Bahu (45 Menit)</td>
+                    <td><button class="complete-btn">Selesai</button></td>
+                </tr>
+                <tr data-day="selasa">
+                    <td>Selasa</td>
+                    <td>Kardio</td>
+                    <td>Berlari/Jogging atau Bersepeda (30 Menit)</td>
+                    <td><button class="complete-btn">Selesai</button></td>
+                </tr>
+                <tr data-day="rabu">
+                    <td>Rabu</td>
+                    <td>Kekuatan (Tubuh Bawah)</td>
+                    <td>Squat, Lunge, Deadlift (45 Menit)</td>
+                    <td><button class="complete-btn">Selesai</button></td>
+                </tr>
+                <tr data-day="kamis">
+                    <td>Kamis</td>
+                    <td>HIIT & Inti (Core)</td>
+                    <td>HIIT Pendek (20 Menit) + Plank & Sit-up (15 Menit)</td>
+                    <td><button class="complete-btn">Selesai</button></td>
+                </tr>
+                <tr data-day="jumat">
+                    <td>Jumat</td>
+                    <td>Fleksibilitas</td>
+                    <td>Yoga atau Peregangan Panjang (30 Menit)</td>
+                    <td><button class="complete-btn">Selesai</button></td>
+                </tr>
+                <tr data-day="sabtu">
+                    <td>Sabtu</td>
+                    <td>Aktivitas Rekreasi</td>
+                    <td>Berenang atau Olahraga Tim (60+ Menit)</td>
+                    <td><button class="complete-btn">Selesai</button></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div id="notes">
+            <h3>Catatan:</h3>
+            <ul>
+                <li>Selalu lakukan pemanasan 5-10 menit sebelum latihan.</li>
+                <li>Jadwal ini bersifat fleksibel, sesuaikan dengan kondisi tubuh Anda.</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
